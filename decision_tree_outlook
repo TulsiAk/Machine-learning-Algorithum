@@ -1,0 +1,9 @@
+digraph {
+	Outlook [label=outlook fillcolor=lightgray shape=circle style=filled]
+	Sunny [label="2 Yes, 3 No" fillcolor=lightgray shape=ellipse style=filled]
+	Overcast [label="4 Yes" fillcolor=lightgray shape=ellipse style=filled]
+	Rainy [label="3 Yes, 2 No" fillcolor=lightgray shape=ellipse style=filled]
+	Outlook -> Sunny [label=sunny]
+	Outlook -> Overcast [label=overcast]
+	Outlook -> Rainy [label=rainy]
+}
